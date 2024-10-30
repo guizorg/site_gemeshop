@@ -1,0 +1,123 @@
+<!DOCTYPE html><!--formato-->
+
+<html lang="pt-br"><!--idioma-->
+
+<head><!--conf.navegador com metatags-->
+    <meta charset="UTF-8"><!--catacteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--mobile-->
+    <title>PROJETO-01</title><!--titulo-->
+    <link rel="stylesheet" href="./main.css"><!--anexando css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body><!--pagina-->
+    <header><!--visual do cabeçalho da pagina-->
+        <div class="container">
+            <h1>GAME SHOP</h1><!--titulo-->
+            <nav><!--menus de navegaçao-->
+                <ul><!--lista nao ordenada-->
+                    <li>
+                        <a href="#aboult">Sobre a loja</a><!--aplicando atributo "href" para criar "link saber mais sobre a loja"-->
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a><!--aplicando atributo "href" para criar "link sobre entrar em contato"-->
+                    </li>      
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="aboult">
+        <div class="container">
+            <img class="store-front" src="./imagens/loja.jpg" alt="Fachada da loja Games shop"/>
+            <div>
+                <h2>Sobre a loja</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae quibusdam molestiae voluptatem
+                quia harum rerum obcaecati illum dignissimos soluta, corporis vel eum perferendis eius nesciunt, sunt mollitia a accusantium.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus voluptatibus harum, maxime, dolore 
+                omnis facere modi autem mollitia laudantium eaque quis inventore in sit consequuntur, voluptatum libero repellat quod.
+            </p>
+            <ul class="brands-list">
+                <li><img src="./imagens/nintendo.png" alt="Nintendo" /> </li>
+                <li><img src="./imagens/xbox.png" alt="Xbox" /> </li> 
+                <li><img src="./imagens/playstation.png" alt="Playstation" /> </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" >
+
+        <div class="container">
+
+            <h2>Contato</h2>
+
+            <div class="contact-methods" >
+
+                <div>
+                    <h3>Fale conosco</h3>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required />
+                            <input type="email" placeholder="Seu e-mail" required />
+                            <input type="tel" placeholder="Seu telefone (opcional)"/>
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                </div>
+
+                <div>
+                    <h3>Nos acompanhe</h3>
+                        
+                    <ul class="social-links" >
+
+                            <li>
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="./imagens/instagram.png" alt="Logo do Instagram" />
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook ">
+                                    <img src="./imagens/facebook.png" alt="Logo do Facebook" />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" title="Visite nosso canal no Youtube">
+                                    <img src="./imagens/youtube.png" alt="Logo do Youtube" /> 
+                                </a>
+                            </li>
+
+                    </ul>
+
+                </div>
+
+                    <div>
+
+                        <h3>Venha ate nos</h3>
+                        <p>
+                            Rua JavaScript n*191, Vila HTML - Sao Paulo - SP
+                        </p>
+
+                    </div>
+
+            </div>  
+
+        </div>
+
+    </section>
+<footer>
+    <div class="container">
+        <p>
+        &copy; Game Shop - Todos os direitos reservados - 2024
+        </p>
+    </div>
+</footer>
+</body>
+</html>              
+
